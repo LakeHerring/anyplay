@@ -1,0 +1,12 @@
+# PyTorch: install the ROCm build for AMD GPUs separately (see README),
+# e.g. for the RX 7900 XTX (gfx1100):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/rocm
+# Do NOT let pip grab the default (CUDA) build from PyPI on this machine.
+# torch>=2.1
+# torchvision
+
+numpy>=1.26
+pillow>=10.0
+mss>=9.0
+evdev>=1.6
+python-xlib>=0.33

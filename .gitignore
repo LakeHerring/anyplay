@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Build artifacts / compiled binaries
+core/build/
+native/capture-check
+native/capture-daemon
+native/portal-capture
+tools/diag-portal
+tools/portal-pw-fd
+*.o
+*.so
+*.exe
+
+# Model / dataset outputs
+*.pt
+*.onnx
+datasets/*
+!datasets/.gitkeep
+
+# OS / editor
+.DS_Store
